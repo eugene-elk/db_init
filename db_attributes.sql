@@ -1,7 +1,7 @@
-INSERT INTO Attributes (AttributeId, Name, Type) VALUES ('psv', 'ПСВ', 'double')
+INSERT INTO attributes (id, name, type) VALUES ('psv', 'ПСВ', 'double')
 GO
-INSERT INTO Attributes (AttributeId, Name, Type) VALUES ('spo2', 'SpO2', 'double')
+INSERT INTO attributes (id, name, type) VALUES ('spo2', 'SpO2', 'double')
 GO
-INSERT INTO Attributes (AttributeId, Name, Type) VALUES ('cond', 'Состояние', 'string')
+INSERT INTO attributes (id, name, type) VALUES ('cond', 'Состояние', 'string')
 GO
-INSERT INTO Attributes (AttributeId, Name, Type) VALUES ('ah', 'Accept hospitalization', 'bool')
+INSERT INTO attributes (id, name, type) VALUES ('ah', 'Accept hospitalization', 'bool')
